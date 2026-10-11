@@ -9,7 +9,7 @@
 <meta name="theme-color" content="#8b4513">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: -apple-system, "Noto Sans Devanagari", system-ui, sans-serif; color: #2a1a0a; background: #fef9ef; }
+  body { font-family: -apple-system, "Noto Sans Devanagari", system-ui, sans-serif; color: #2a1a0a; background: #fef9ef; min-height: 100vh; display: flex; flex-direction: column; }
   .topbar { position: sticky; top: 0; background: #8b4513; color: #fff; padding: 0.75rem 1rem; display: flex; align-items: center; gap: 1rem; z-index: 100; }
   .topbar button { background: none; border: none; color: #fff; font-size: 1.5rem; cursor: pointer; padding: 0.25rem 0.5rem; }
   .topbar h1 { font-size: 1.2rem; font-weight: 600; }
@@ -22,14 +22,10 @@
   .sidebar li .prayer-meta { font-size: 0.75rem; color: #999; }
   .overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); z-index: 150; display: none; }
   .overlay.show { display: block; }
-  .hero { text-align: center; padding: 2.5rem 1.5rem 1rem; }
-  .hero .om { font-size: 5rem; line-height: 1; color: #8b4513; }
-  .hero h2 { font-size: 1.5rem; color: #8b4513; margin: 0.5rem 0 0.25rem; }
-  .hero p { color: #888; font-size: 0.95rem; }
-  .prayer-list { max-width: 640px; margin: 0 auto; padding: 1rem 1.5rem 2rem; }
-  .prayer-card { display: block; background: #fff; border: 1px solid #e8dcc0; border-radius: 12px; padding: 1.25rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04); text-decoration: none; color: inherit; }
-  .prayer-card h3 { color: #8b4513; font-size: 1.2rem; margin-bottom: 0.2rem; }
-  .prayer-card .meta { color: #888; font-size: 0.85rem; }
+  .hero { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; text-align: center; }
+  .hero .om { font-size: 8rem; line-height: 1; color: #8b4513; margin-bottom: 1rem; }
+  .hero h2 { font-size: 1.8rem; color: #8b4513; margin-bottom: 0.5rem; }
+  .hero p { color: #888; font-size: 1rem; }
   footer { text-align: center; color: #aaa; font-size: 0.85rem; padding: 1.5rem; }
   footer a { color: #8b4513; }
 </style>
@@ -53,13 +49,6 @@
   <div class="om">ॐ</div>
   <h2>मंत्र पठण</h2>
   <p>Marathi &amp; Sanskrit prayers in Devanagari</p>
-</div>
-
-<div class="prayer-list">
-  <a class="prayer-card" href="shri-dattamala-mantra.html">
-    <h3>॥ श्रीदत्तमाला मन्त्र ॥</h3>
-    <p class="meta">Sanskrit · Dattatreya</p>
-  </a>
 </div>
 
 <footer><a href="/">← Amit Sonar</a></footer>
