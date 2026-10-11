@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sa">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>॥ श्रीदत्तमाला मन्त्र ॥ — Mantra Pathan</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="theme-color" content="#8b4513">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "Noto Sans Devanagari", system-ui, sans-serif; line-height: 2.2; color: #2a1a0a; background: #fef9ef; }
+  .topbar { position: sticky; top: 0; background: #8b4513; color: #fff; padding: 0.75rem 1rem; display: flex; align-items: center; gap: 1rem; z-index: 100; }
+  .topbar button { background: none; border: none; color: #fff; font-size: 1.5rem; cursor: pointer; padding: 0.25rem 0.5rem; }
+  .topbar h1 { font-size: 1.1rem; font-weight: 600; }
+  .sidebar { position: fixed; top: 0; left: -280px; width: 280px; height: 100%; background: #fff; border-right: 1px solid #e8dcc0; z-index: 200; transition: left 0.3s ease; overflow-y: auto; }
+  .sidebar.open { left: 0; }
+  .sidebar-header { padding: 1rem; background: #8b4513; color: #fff; font-weight: 600; }
+  .sidebar ul { list-style: none; }
+  .sidebar li a { display: block; padding: 0.9rem 1.25rem; color: #2a1a0a; text-decoration: none; border-bottom: 1px solid #f0e8d5; }
+  .sidebar li a:hover, .sidebar li a.active { background: #fef9ef; color: #8b4513; font-weight: 600; }
+  .sidebar li .prayer-meta { font-size: 0.75rem; color: #999; }
+  .overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); z-index: 150; display: none; }
+  .overlay.show { display: block; }
+  .content { max-width: 640px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .prayer-meta-top { text-align: center; color: #888; font-size: 0.85rem; margin-bottom: 1.5rem; }
+  .prayer-text { font-size: 1.2rem; background: #fff; border: 1px solid #e8dcc0; border-radius: 12px; padding: 2rem 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+  footer { text-align: center; color: #aaa; font-size: 0.85rem; margin-top: 3rem; }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <button onclick="toggleSidebar()" aria-label="Menu">☰</button>
+  <h1>॥ श्रीदत्तमाला मन्त्र ॥</h1>
+</div>
+
+<nav class="sidebar" id="sidebar">
+  <div class="sidebar-header">Prayers</div>
+  <ul>
+    <li><a href="/prayer/">🏠 Home</a></li>
+    <li><a href="shri-dattamala-mantra.html" class="active">॥ श्रीदत्तमाला मन्त्र ॥<br><span class="prayer-meta">Sanskrit · Dattatreya</span></a></li>
+  </ul>
+</nav>
+<div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+<div class="content">
+  <p class="prayer-meta-top">Sanskrit · Deity: Dattatreya · Source: Amit's prayer book</p>
+  <div class="prayer-text">
+।। ॐ नमो भगवते दत्तात्रेयाय, स्मरणमात्रसन्तुष्टाय,<br>
+महाभयनिवारणाय महाज्ञानप्रदाय, चिदानन्दात्मने<br>
+बालोन्मत्तपिशाचवेषाय, महायोगिने अवधूताय,<br>
+अनसूयानन्दवर्धनाय अत्रिपुत्राय, ॐ भवबन्धविमोचनाय,<br>
+आं असाध्यसाधनाय, ह्रीं सर्वविभूतिदाय,<br>
+क्रौं असाध्याकर्षणाय, ऐं वाक्प्रदाय, क्लीं जगत्रयवशीकरणाय,<br>
+सौः सर्वमनःक्षोभणाय, श्रीं महासम्पत्प्रदाय,<br>
+ग्लौं भूमण्डलाधिपत्यप्रदाय, द्रां चिरंजीविने,<br>
+वषट्वशीकुरु वशीकुरु, वौषट् आकर्षय आकर्षय,<br>
+हुं विद्वेषय विद्वेषय, फट् उच्चाटय उच्चाटय,<br>
+ठः ठः स्तम्भय स्तम्भय, खें खें मारय मारय,<br>
+नमः सम्पन्नय सम्पन्नय, स्वाहा पोषय पोषय,<br>
+परमन्त्रपरयन्त्रपरतन्त्राणि छिन्धि छिन्धि,<br>
+ग्रहान्निवारय निवारय, व्याधीन् विनाशय विनाशय,<br>
+दुःखं हर हर, दारिद्र्यं विद्रावय विद्रावय,<br>
+देहं पोषय पोषय, चित्तं तोषय तोषय,<br>
+सर्वमन्त्रस्वरूपाय, सर्वयन्त्रस्वरूपाय,<br>
+सर्वतन्त्रस्वरूपाय, सर्वपल्लवस्वरूपाय,<br>
+ॐ नमो महासिद्धाय स्वाहा ।।
+  </div>
+  <footer>॥ मंत्र पठण ॥</footer>
+</div>
+
+<script>
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('overlay').classList.toggle('show');
+}
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+</script>
+</body>
+</html>
