@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>॥ ॐ ॥ जयदेव जयदेव — Mantra Pathan</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="theme-color" content="#8b4513">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "Noto Sans Devanagari", system-ui, sans-serif; line-height: 2.2; color: #2a1a0a; background: #fef9ef; }
+  .topbar { position: sticky; top: 0; background: #8b4513; color: #fff; padding: 0.75rem 1rem; display: flex; align-items: center; gap: 1rem; z-index: 100; }
+  .topbar button { background: none; border: none; color: #fff; font-size: 1.5rem; cursor: pointer; padding: 0.25rem 0.5rem; }
+  .topbar h1 { font-size: 1.1rem; font-weight: 600; }
+  .sidebar { position: fixed; top: 0; left: -280px; width: 280px; height: 100%; background: #fff; border-right: 1px solid #e8dcc0; z-index: 200; transition: left 0.3s ease; overflow-y: auto; }
+  .sidebar.open { left: 0; }
+  .sidebar-header { padding: 1rem; background: #8b4513; color: #fff; font-weight: 600; }
+  .sidebar ul { list-style: none; }
+  .sidebar li a { display: block; padding: 0.9rem 1.25rem; color: #2a1a0a; text-decoration: none; border-bottom: 1px solid #f0e8d5; }
+  .sidebar li a:hover, .sidebar li a.active { background: #fef9ef; color: #8b4513; font-weight: 600; }
+  .sidebar li .prayer-meta { font-size: 0.75rem; color: #999; }
+  .overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); z-index: 150; display: none; }
+  .overlay.show { display: block; }
+  .content { max-width: 640px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .prayer-meta-top { text-align: center; color: #888; font-size: 0.85rem; margin-bottom: 1.5rem; }
+  .prayer-text { font-size: 1.2rem; background: #fff; border: 1px solid #e8dcc0; border-radius: 12px; padding: 2rem 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+  footer { text-align: center; color: #aaa; font-size: 0.85rem; margin-top: 3rem; }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <button onclick="toggleSidebar()" aria-label="Menu">☰</button>
+  <h1>॥ ॐ ॥ जयदेव जयदेव</h1>
+</div>
+
+<nav class="sidebar" id="sidebar">
+  <div class="sidebar-header">Prayers</div>
+  <ul>
+    <li><a href="/prayer/">🏠 Home</a></li>
+    <li><a href="shri-dattamala-mantra.html">॥ दत्तमाला ॥<br><span class="prayer-meta">Sanskrit · Dattatreya</span></a></li>
+    <li><a href="om-anandam-himalayam.html">॥ ॐ आनंदं हिमालयं ॥<br><span class="prayer-meta">Marathi · Dattatreya</span></a></li>
+    <li><a href="shri-ganesh-gayatri.html">॥ श्री गणेश गायत्री ॥<br><span class="prayer-meta">Marathi · Ganesh</span></a></li>
+    <li><a href="shri-navagraha-kavach-stotra.html">॥ श्री नवग्रह कवच स्तोत्र ॥<br><span class="prayer-meta">Sanskrit · Navagraha</span></a></li>
+    <li><a href="shri-brihaspati-kripa-kavach.html">॥ श्री बृहस्पति कृपा कवच ॥<br><span class="prayer-meta">Sanskrit · Brihaspati</span></a></li>
+    <li><a href="rudrashtakavach.html">ॐ रुद्राष्टकवच ॐ<br><span class="prayer-meta">Sanskrit · Shiva</span></a></li>
+    <li><a href="dadaji-aarti.html" class="active">॥ ॐ ॥ जयदेव जयदेव<br><span class="prayer-meta">Marathi · Dadaji</span></a></li>
+  </ul>
+</nav>
+<div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+<div class="content">
+  <p class="prayer-meta-top">Marathi · Deity: Dadaji · Source: Amit's prayer book</p>
+  <div class="prayer-text">
+॥ ॐ ॥<br>
+<br>
+जयदेव जयदेव जय श्री गुरुनाथा (यदुनाथा)<br>
+तुमचे दर्शन घेता हरली भय चिंता ॥धृं॥<br>
+<br>
+लक्ष्मी-पुरुषोत्तम हे तुझे नाव सार्थ ।<br>
+पुरुषोत्तम चरणासी लक्ष्मीचा वास ।<br>
+भक्त जनांची पीडा नेसी विलयास ।<br>
+तंत्र करोनी घेसी सुवर्ण निगडीत ॥1॥<br>
+<br>
+घोर तपाने वश तु केले सद्गुरुस ।<br>
+आनंद स्वामी करिती कृपा अशिषास ।<br>
+दत्त-गुरुंचा पंथ कृतार्थ केलास ।<br>
+दाविसी पंथ गुरुंचा जड जीवा नीट ॥2॥<br>
+<br>
+त्वत माते दृष्टांत झाला स्वप्नांत ।<br>
+येईन तव गे उदरी वदे कृष्णनाथ ।<br>
+विश्वाच्या कल्याणा घेसी अवतार ।<br>
+"दादाजी" नावाने झालासी ख्यात ॥3॥<br>
+<br>
+मंत्राचा तंत्राचा अवलंब करिसी ।<br>
+साधक होती धन्य प्रेमा ये भरती ।<br>
+लावण्य सुंदर वर्णवि किती ।<br>
+हरपून गेले भान दृष्टीची पूर्ती ॥4॥<br>
+<br>
+"सप्त ओम" गायत्री मंत्र युवा दिधला ।<br>
+जल-जप साधन तैसे देसी दातारा ।<br>
+नावे दादाजी या ओळखिती भक्त ।<br>
+अगणित साधक झाले आनंदे मुक्त ॥5॥<br>
+<br>
+ॐ आनंदं हिमालयं विष्णुं गरुडध्वजं ॐ<br>
+ॐ शिवं दत्तं गायत्री सरस्वती महालक्ष्मी प्रणमाम्यहं ॐ<br>
+
+  </div>
+  <footer>॥ मंत्र पठण ॥</footer>
+</div>
+
+<script>
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('overlay').classList.toggle('show');
+}
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+</script>
+</body>
+</html>
