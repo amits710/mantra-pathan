@@ -1,1 +1,50 @@
-LS0tCnRpdGxlOiBTaHJpIERhdHRhbWFsYSBNYW50cmEKdGl0bGVfZGV2YW5hZ2FyaTog4KWlIOCktuCljeCksOClgOCkpuCkpOCljeCkpOCkruCkvuCksuCkviDgpK7gpKjgpY3gpKTgpY3gpLAg4KWlCmxhbmd1YWdlOiBTYW5za3JpdApkZWl0eTogRGF0dGF0cmV5YQpzb3VyY2U6IEFtaXQncyBwcmF5ZXIgYm9vawphZGRlZDogMjAyNi0xMC0xMQotLS0KCuClpSDgpLbgpY3gpLDgpYDgpKbgpKTgpY3gpKTgpK7gpL7gpLLgpL4g4KSu4KSo4KWN4KSk4KWN4KSwIOClpQrgpaTgpaQg4KWQIOCkqOCkruCliyDgpK3gpJfgpLXgpKTgpYcg4KSm4KSk4KWN4KSk4KS+4KSk4KWN4KSw4KWH4KSv4KS+4KSvLCDgpLjgpY3gpK7gpLDgpKPgpK7gpL7gpKTgpY3gpLDgpLjgpKjgpY3gpKTgpYHgpLfgpY3gpJ/gpL7gpK8sCuCkruCkueCkvuCkreCkr+CkqOCkv+CkteCkvuCksOCko+CkvuCkryDgpK7gpLngpL7gpJzgpY3gpJ7gpL7gpKjgpKrgpY3gpLDgpKbgpL7gpK8sIOCkmuCkv+CkpuCkvuCkqOCkqOCljeCkpuCkvuCkpOCljeCkruCkqOClhwrgpKzgpL7gpLLgpYvgpKjgpY3gpK7gpKTgpY3gpKTgpKrgpL/gpLbgpL7gpJrgpLXgpYfgpLfgpL7gpK8sIOCkruCkueCkvuCkr+Cli+Ckl+Ckv+CkqOClhyDgpIXgpLXgpKfgpYLgpKTgpL7gpK8sCuCkheCkqOCkuOClguCkr+CkvuCkqOCkqOCljeCkpuCkteCksOCljeCkp+CkqOCkvuCkryDgpIXgpKTgpY3gpLDgpL/gpKrgpYHgpKTgpY3gpLDgpL7gpK8sIOClkCDgpK3gpLXgpKzgpKjgpY3gpKfgpLXgpL/gpK7gpYvgpJrgpKjgpL7gpK8sCuCkhuCkgiDgpIXgpLjgpL7gpKfgpY3gpK/gpLjgpL7gpKfgpKjgpL7gpK8sIOCkueCljeCksOClgOCkgiDgpLjgpLDgpY3gpLXgpLXgpL/gpK3gpYLgpKTgpL/gpKbgpL7gpK8sCuCkleCljeCksOCljOCkgiDgpIXgpLjgpL7gpKfgpY3gpK/gpL7gpJXgpLDgpY3gpLfgpKPgpL7gpK8sIOCkkOCkgiDgpLXgpL7gpJXgpY3gpKrgpY3gpLDgpKbgpL7gpK8sIOCkleCljeCksuClgOCkgiDgpJzgpJfgpKTgpY3gpLDgpK/gpLXgpLbgpYDgpJXgpLDgpKPgpL7gpK8sCuCkuOCljOCkgyDgpLjgpLDgpY3gpLXgpK7gpKjgpIPgpJXgpY3gpLfgpYvgpK3gpKPgpL7gpK8sIOCktuCljeCksOClgOCkgiDgpK7gpLngpL7gpLjgpK7gpY3gpKrgpKTgpY3gpKrgpY3gpLDgpKbgpL7gpK8sCuCkl+CljeCksuCljOCkgiDgpK3gpYLgpK7gpKPgpY3gpKHgpLLgpL7gpKfgpL/gpKrgpKTgpY3gpK/gpKrgpY3gpLDgpKbgpL7gpK8sIOCkpuCljeCksOCkvuCkgiDgpJrgpL/gpLDgpILgpJzgpYDgpLXgpL/gpKjgpYcsCuCkteCkt+Ckn+CljeCkteCktuClgOCkleClgeCksOClgSDgpLXgpLbgpYDgpJXgpYHgpLDgpYEsIOCkteCljOCkt+Ckn+CljSDgpIbgpJXgpLDgpY3gpLfgpK8g4KSG4KSV4KSw4KWN4KS34KSvLArgpLngpYHgpIIg4KS14KS/4KSm4KWN4KS14KWH4KS34KSvIOCkteCkv+CkpuCljeCkteClh+Ckt+Ckrywg4KSr4KSf4KWNIOCkieCkmuCljeCkmuCkvuCkn+CkryDgpIngpJrgpY3gpJrgpL7gpJ/gpK8sCuCkoOCkgyDgpKDgpIMg4KS44KWN4KSk4KSu4KWN4KSt4KSvIOCkuOCljeCkpOCkruCljeCkreCkrywg4KSW4KWH4KSCIOCkluClh+CkgiDgpK7gpL7gpLDgpK8g4KSu4KS+4KSw4KSvLArgpKjgpK7gpIMg4KS44KSu4KWN4KSq4KSo4KWN4KSo4KSvIOCkuOCkruCljeCkquCkqOCljeCkqOCkrywg4KS44KWN4KS14KS+4KS54KS+IOCkquCli+Ckt+CkryDgpKrgpYvgpLfgpK8sCuCkquCksOCkruCkqOCljeCkpOCljeCksOCkquCksOCkr+CkqOCljeCkpOCljeCksOCkquCksOCkpOCkqOCljeCkpOCljeCksOCkvuCko+CkvyDgpJvgpL/gpKjgpY3gpKfgpL8g4KSb4KS/4KSo4KWN4KSn4KS/LArgpJfgpY3gpLDgpLngpL7gpKjgpY3gpKjgpL/gpLXgpL7gpLDgpK8g4KSo4KS/4KS14KS+4KSw4KSvLCDgpLXgpY3gpK/gpL7gpKfgpYDgpKjgpY0g4KS14KS/4KSo4KS+4KS24KSvIOCkteCkv+CkqOCkvuCktuCkrywK4KSm4KWB4KSD4KSW4KSCIOCkueCksCDgpLngpLAsIOCkpuCkvuCksOCkv+CkpuCljeCksOCljeCkr+CkgiDgpLXgpL/gpKbgpY3gpLDgpL7gpLXgpK8g4KS14KS/4KSm4KWN4KSw4KS+4KS14KSvLArgpKbgpYfgpLngpIIg4KSq4KWL4KS34KSvIOCkquCli+Ckt+Ckrywg4KSa4KS/4KSk4KWN4KSk4KSCIOCkpOCli+Ckt+CkryDgpKTgpYvgpLfgpK8sCuCkuOCksOCljeCkteCkruCkqOCljeCkpOCljeCksOCkuOCljeCkteCksOClguCkquCkvuCkrywg4KS44KSw4KWN4KS14KSv4KSo4KWN4KSk4KWN4KSw4KS44KWN4KS14KSw4KWC4KSq4KS+4KSvLArgpLjgpLDgpY3gpLXgpKTgpKjgpY3gpKTgpY3gpLDgpLjgpY3gpLXgpLDgpYLgpKrgpL7gpK8sIOCkuOCksOCljeCkteCkquCksuCljeCksuCkteCkuOCljeCkteCksOClguCkquCkvuCkrywK4KWQIOCkqOCkruCliyDgpK7gpLngpL7gpLjgpL/gpKbgpY3gpKfgpL7gpK8g4KS44KWN4KS14KS+4KS54KS+IOClpOClpAo=
+---
+title: Shri Dattamala Mantra
+title_devanagari: ॥ दत्तमाला ॥
+language: Sanskrit
+deity: Dattatreya
+source: Amit's prayer book
+added: 2026-10-11
+---
+
+ॐ आनंदम् हिमालयं विष्णु गरुडध्वजं ॐ
+ॐ शिवं दत्तं गायत्री सरस्वती महालक्ष्मी प्रणमाम्यहं ॐ
+
+॥ दत्तमाला ॥
+
+ॐ अथ दत्तमाला मंत्रः । अनुष्टुप छन्दः । सदाशिव ऋषिः ।
+दत्तात्रेयो देवता । ॐ बीजम् । स्वाहा
+शक्तिः । द्राम कीलकम् । ॐ नमो भगवते दत्तात्रेयाय,
+स्मरणमात्र संतुष्टाय महाभय निवारणाय,
+महाज्ञानप्रदाय, चिदानंदात्मने, बालोन्मत्त पिशाच वेषाय,
+महायोगिने अवधूताय, अनसूयानन्द
+वर्धनाय, अत्रिपुत्राय, सर्वकामफलप्रदाय,
+
+ॐ ॐ भवबंध विमोचनाय, (भवबंधाचे विमोचन करणारा)
+ॐ आँ असाध्य साधनाय, (असाध्य गोष्टी साधण्यासाठी)
+ॐ ह्रीँ सर्व विभूतिदाय, (सर्व विभूती प्रदान करण्यासाठी)
+ॐ क्रों असाध्यकर्षणाय, (असाध्याचे आकर्षण व्हावे यासाठी)
+ॐ ऐँ वाक्प्रदाय, (वाचासिद्धीसाठी शुभवाणीसाठी)
+ॐ क्लीँ जगत्रयवशीकरणाय, (तीन ही जग वश व्हावे यासाठी)
+ॐ सौँ सर्वमनः क्षोभणाय, (मनाचे सर्व क्षोभ दूर करणारा)
+ॐ श्रीँ महासंपत्प्रदाय, (महासंपत्ती प्रदान करणारा)
+ॐ ग्लौँ भूमंडलाधिपत्यप्रदाय (भूमंडलाचे आधिपत्य प्रदान करणारा)
+ॐ द्रां चिरंजिविने चिरंजीवित्वदायिने वषट् (चिरंजीवन प्रदान)
+
+वशी कुरु वशी कुरु, वौषट आकर्षय आकर्षय
+हुं विद्वेषय विद्वेषय, फट उच्चाटय उच्चाटय
+ठः ठः स्तंभय स्तंभय, खें खें मारय मारय
+नमः संपन्नय संपन्नय, स्वाहा पोषय पोषय
+परमंत्र परयंत्र परतंत्राणि, छिंधि छिंधि
+
+ग्रहान निवारय निवारय, व्याधिन विनाशय विनाशय
+दुःखं हर हर, दारिद्र्यं विद्रावय विद्रावय
+देहं पोषय पोषय, चित्तं तोषय तोषय
+सर्वमंत्र सर्वयंत्र सर्वतंत्र सर्व पल्लव स्वरुपाय
+ॐ नमो महासिद्धाय, परमसिद्धाय, परात्परसिद्धाय स्वाहा
+ॐ
+
+ॐ ॐ नमो श्री दत्तात्रेयं दं हिमं लं
+सूरयं बं पूरयं मम मम ॐ ॐ ॐ
+ॐ देवानांच ऋषिणांच गुरुं कांचन सन्निभम्
+ॐ बुद्धिभूतं त्रिलोकेशं तं नमामि बृहस्पतिम् ॐ
