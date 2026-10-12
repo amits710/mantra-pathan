@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sa">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ॐ रुद्राष्टकवच ॐ — Mantra Pathan</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="theme-color" content="#8b4513">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "Noto Sans Devanagari", system-ui, sans-serif; line-height: 2.2; color: #2a1a0a; background: #fef9ef; }
+  .topbar { position: sticky; top: 0; background: #8b4513; color: #fff; padding: 0.75rem 1rem; display: flex; align-items: center; gap: 1rem; z-index: 100; }
+  .topbar button { background: none; border: none; color: #fff; font-size: 1.5rem; cursor: pointer; padding: 0.25rem 0.5rem; }
+  .topbar h1 { font-size: 1.1rem; font-weight: 600; }
+  .sidebar { position: fixed; top: 0; left: -280px; width: 280px; height: 100%; background: #fff; border-right: 1px solid #e8dcc0; z-index: 200; transition: left 0.3s ease; overflow-y: auto; }
+  .sidebar.open { left: 0; }
+  .sidebar-header { padding: 1rem; background: #8b4513; color: #fff; font-weight: 600; }
+  .sidebar ul { list-style: none; }
+  .sidebar li a { display: block; padding: 0.9rem 1.25rem; color: #2a1a0a; text-decoration: none; border-bottom: 1px solid #f0e8d5; }
+  .sidebar li a:hover, .sidebar li a.active { background: #fef9ef; color: #8b4513; font-weight: 600; }
+  .sidebar li .prayer-meta { font-size: 0.75rem; color: #999; }
+  .overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); z-index: 150; display: none; }
+  .overlay.show { display: block; }
+  .content { max-width: 640px; margin: 0 auto; padding: 2rem 1.5rem; }
+  .prayer-meta-top { text-align: center; color: #888; font-size: 0.85rem; margin-bottom: 1.5rem; }
+  .prayer-text { font-size: 1.2rem; background: #fff; border: 1px solid #e8dcc0; border-radius: 12px; padding: 2rem 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+  footer { text-align: center; color: #aaa; font-size: 0.85rem; margin-top: 3rem; }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <button onclick="toggleSidebar()" aria-label="Menu">☰</button>
+  <h1>ॐ रुद्राष्टकवच ॐ</h1>
+</div>
+
+<nav class="sidebar" id="sidebar">
+  <div class="sidebar-header">Prayers</div>
+  <ul>
+    <li><a href="/prayer/">🏠 Home</a></li>
+    <li><a href="shri-dattamala-mantra.html">॥ दत्तमाला ॥<br><span class="prayer-meta">Sanskrit · Dattatreya</span></a></li>
+    <li><a href="om-anandam-himalayam.html">॥ ॐ आनंदं हिमालयं ॥<br><span class="prayer-meta">Marathi · Dattatreya</span></a></li>
+    <li><a href="shri-ganesh-gayatri.html">॥ श्री गणेश गायत्री ॥<br><span class="prayer-meta">Marathi · Ganesh</span></a></li>
+    <li><a href="shri-navagraha-kavach-stotra.html">॥ श्री नवग्रह कवच स्तोत्र ॥<br><span class="prayer-meta">Sanskrit · Navagraha</span></a></li>
+    <li><a href="shri-brihaspati-kripa-kavach.html">॥ श्री बृहस्पति कृपा कवच ॥<br><span class="prayer-meta">Sanskrit · Brihaspati</span></a></li>
+    <li><a href="rudrashtakavach.html" class="active">ॐ रुद्राष्टकवच ॐ<br><span class="prayer-meta">Sanskrit · Shiva</span></a></li>
+    <li><a href="dadaji-aarti.html">॥ ॐ ॥ जयदेव जयदेव<br><span class="prayer-meta">Marathi · Dadaji</span></a></li>
+  </ul>
+</nav>
+<div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+<div class="content">
+  <p class="prayer-meta-top">Sanskrit · Deity: Shiva · Source: Amit's prayer book</p>
+  <div class="prayer-text">
+ॐ रुद्राष्टकवच ॐ<br>
+<br>
+ॐ नमामिशमीशान निर्वाणरुपं विभुं व्यापकं ब्रह्म वेदस्वरुपम् ॥<br>
+ॐ निजं निर्गुणं निर्विकल्पम् निरीहं चिदाकाश माकाशवासं भजे हं ॥<br>
+ॐ निराकार ओंकार मूलं तुरीयं गिराज्ञान गोतीतमीश गिरीशं ॥<br>
+ॐ करालं महाकाल कालं कृपालं, गुणागार संसार सारं नतोहं ॥<br>
+ॐ तुषाराद्रिसंकाश गौरं गम्भीरं, मनोभूत कोटि प्रभा श्री शरीरम् ॥<br>
+ॐ स्फुरन्मौलिंक कल्लयिनी चारुगंगा, लसद्भाल बालेन्दु कण्ठे भुजंगा ॥<br>
+ॐ चलत्कुण्डलम् शुभ्र सुनेत्र विशालं, प्रसन्नाननम् नीलम् कण्ठम् दयाल ॥<br>
+ॐ मृगाधीश चर्माम्बरम् मुण्डमाल, प्रियम् शंकरम् सर्वनाथ भजामि ॥<br>
+ॐ प्रचण्डम् प्रकृष्टप्रगल्भ परेशं, अखण्डम् अज भानुकोटि प्रकाश ॥<br>
+ॐ भयशूल निर्मूलं शूलपाणि, भजे अहं भवार्णिपति भावगम्य ॥<br>
+ॐ कलातीत कल्याण कल्पांतकारी, सदा सज्जानन्द दाता पुरारी ॥<br>
+ॐ चिदानन्द सन्दोह महोपहारी, प्रसीद प्रसीद प्रभोमत्तम धारी ॥<br>
+ॐ जयावद् उमानाथ पादार विन्दम् भजन्ती हलोके परेवा नाराणां ॥<br>
+ॐ नतावत्सुखं शान्ति सन्ताप नाशं प्रसीद प्रभासर्व भूता दिवास ॥<br>
+ॐ न जाना मि योगम् जपं नैवं पूजा, नतोहं सदासर्वदा शंभु तुभ्यं ॥<br>
+ॐ जरा जन्म दुःखोघ तातप्यमानं, प्रभो पाहि आपन्न माशीशशम्भो ॥<br>
+<br>
+ॐ रुद्राष्ट कमिदं प्रोक्तं विप्रेण हर तोषये ॐ<br>
+ॐ ये पठन्ति नराभक्त्या तेषां शंभु प्रसोदति ॐ<br>
+ॐ ह्रींम् नमः ॐ नमः, ॐ क्लींम् नमः, ॐ ह्रींम् नमः, ॐ ॐ नमः<br>
+ॐ ॐ हूं नमः ॐ ह्रींम् हूं नमः, ॐ क्रों क्षीं रीं नमः, ॐ दंम् नमः<br>
+<br>
+ॐ आनंदं हिमालयं विष्णुं गुरुरध्वजं ॐ<br>
+ॐ शिवं दत्तं गायत्री सरस्वती महालक्ष्मी प्रणमाम्यहम् ॐ<br>
+
+  </div>
+  <footer>॥ मंत्र पठण ॥</footer>
+</div>
+
+<script>
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('overlay').classList.toggle('show');
+}
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+</script>
+</body>
+</html>
